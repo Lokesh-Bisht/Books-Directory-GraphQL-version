@@ -1,0 +1,32 @@
+#show-all-books-container {
+  background-color: #f0f2f5;
+  padding: 16px;
+}
+
+#show-all-books {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+  padding: 32px;
+  background-color: #fff;
+}
+
+#show-all-books-info {
+  flex-grow: 4;
+  flex-basis: 0;
+  flex-shrink: 0;
+}
+
+#show-all-books-info > h1 {
+  margin: 0px;
+}
+
+#show-all-books-info-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+}
+
+#show-all-books-info-container > img {
+  margin-right: 32px;
+}

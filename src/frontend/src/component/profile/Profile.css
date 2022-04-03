@@ -1,0 +1,74 @@
+#global-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 0px;
+}
+
+
+#nav-bar {
+  flex-grow: 1;
+  min-width: 1%;
+  flex-basis: 1;
+  padding-top: 32px;
+  padding-bottom: 16px;
+  background-color: #151616;
+}
+
+#nav-bar > div > a {
+  padding: 16px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#nav-bar > div > a:focus {
+  background-color: #484a4d;
+}
+
+
+#username-container > p {
+  flex-wrap: wrap;
+  /* word-wrap: break-word; */
+}
+
+#books-container {
+  flex-grow: 5;
+}
+
+/* parent element */
+#avatar {
+  position: relative;
+}
+
+/* child element */
+#avatar-dropdown {
+  background-color: #484a4d;
+  width: 200px;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  display: none;
+}
+
+#avatar-dropdown-items {
+  /* width: 200px; */
+  list-style: none;
+  text-align: start; 
+  /* color: black; */
+  cursor: auto;
+}
+
+
+#avatar-dropdown-items > p {
+  padding: 8px 0;
+  font-weight: normal;
+  margin: 0px 16px; 
+}
+
+#logout {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}

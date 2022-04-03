@@ -1,0 +1,10 @@
+#delete-book-result-msg {
+  font-size: 16px;
+  color: #fff;
+}
+
+#delete-book-result-msg {
+  width: 300px;
+  text-align: center;
+  border-radius: 6px;
+}

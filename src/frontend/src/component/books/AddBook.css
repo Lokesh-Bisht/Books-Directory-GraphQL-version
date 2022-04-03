@@ -1,0 +1,47 @@
+#add-book-container {
+  padding: 32px;
+  margin-top:32px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+#title-container, #description-container, #cover-image-container {
+  padding-top: 6px;
+  padding-bottom: 6px;
+} 
+
+#title, #description, #cover-image{
+  padding: 14px 16px 14px 16px;
+  display: block;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+}
+
+#add-book-button {
+  margin-top: 32px;
+  padding: 0 32px;
+  font-size: 20px;
+  line-height: 48px;
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#login-button-container {
+  text-align:center;
+}
+
+#add-book-result-msg {
+  font-size: 16px;
+  color: #fff;
+}
+
+#add-book-result-msg {
+  width: 300px;
+  text-align: center;
+  border-radius: 6px;
+}

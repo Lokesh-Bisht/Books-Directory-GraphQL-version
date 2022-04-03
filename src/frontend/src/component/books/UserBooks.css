@@ -1,0 +1,55 @@
+#show-user-books-container {
+  background-color: #f0f2f5;
+  padding: 16px;
+}
+
+#show-user-books {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+  padding: 32px;
+  background-color: #fff;
+}
+
+#user-books-info {
+  flex-grow: 4;
+  flex-basis: 0;
+  flex-shrink: 0;
+}
+
+#user-books-button {
+  flex-grow: 1;
+  flex-basis: 0;
+  flex-shrink: 0;
+  margin-left: 16px;
+}
+
+#user-books-info > h1 {
+  margin: 0px;
+}
+
+#user-books-info-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+}
+
+#user-books-info-container > img {
+  margin-right: 32px;
+}
+
+#edit-book, #delete-book {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: tomato;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  /* line-height: 48px; */
+  padding: 8px; 
+}
+
+#delete-book {
+  margin-left: 16px;
+}
